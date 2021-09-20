@@ -28,6 +28,7 @@ main {
     float: left;
     width: calc(100% / 3);
     position: relative; 
+    cursor: pointer;
     
 }
 img {
@@ -57,11 +58,6 @@ img {
 .oldprice {
     text-decoration:line-through;
 }
-
-
-
-
-
 
 
 .dress img {
@@ -101,3 +97,19 @@ img {
 .only {
     left: 0;
 }
+
+
+/* hover site */
+
+.diffimg {
+    display: none;
+}
+
+.dress:hover .orgimg {
+    display: none;
+}
+
+ .dress:hover .diffimg {
+     display: inline-block;
+
+ }
