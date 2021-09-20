@@ -70,11 +70,12 @@ img {
 
 .like {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 40px;
     font-size: 30px;
     padding: 3%;
-    background-color: white;
+    background-color: rgb(0, 250, 242);
+    border-radius: 10px;
 }
 
 
@@ -95,4 +96,8 @@ img {
     background-color: green;
     color: white;
     padding: 1%;
+}
+
+.only {
+    left: 0;
 }
